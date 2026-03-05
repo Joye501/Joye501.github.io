@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>專業旅遊包車服務</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Helvetica", sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+}
+
+/* 導覽列 */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:white;
+padding:15px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+z-index:1000;
+}
+
+nav h1{
+font-size:20px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+margin-left:20px;
+}
+
+/* 首頁 */
+
+.hero{
+height:90vh;
+background:url("yourphoto.jpg") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h2{
+font-size:40px;
+background:rgba(0,0,0,0.4);
+padding:20px;
+}
+
+/* 服務介紹 */
+
+.section{
+padding:80px 10%;
+text-align:center;
+}
+
+.section h2{
+margin-bottom:30px;
+font-size:32px;
+}
+
+/* 圖片展示 */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+/* 聯絡 */
+
+.contact{
+background:#111;
+color:white;
+}
+
+.contact p{
+margin:10px 0;
+font-size:18px;
+}
+
+/* LINE按鈕 */
+
+.line-btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#06C755;
+color:white;
+border-radius:30px;
+text-decoration:none;
+font-size:18px;
+}
+
+/* 手機版 */
+
+@media(max-width:768px){
+
+.hero h2{
+font-size:26px;
+}
+
+nav{
+padding:15px 5%;
+}
+
+.section{
+padding:60px 5%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<h1>旅遊包車服務</h1>
+<div>
+<a href="#about">關於我</a>
+<a href="#gallery">旅遊照片</a>
+<a href="#contact">聯絡</a>
+</div>
+</nav>
+
+<section class="hero">
+<h2>專業旅遊包車<br>安全・舒適・自在旅程</h2>
+</section>
+
+<section id="about" class="section">
+<h2>關於司機</h2>
+<p>
+10年以上旅遊包車經驗<br>
+熟悉台灣各大景點與私房路線<br>
+提供機場接送、包車旅遊、客製行程
+</p>
+</section>
+
+<section id="gallery" class="section">
+<h2>旅遊照片</h2>
+
+<div class="gallery">
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+<img src="photo4.jpg">
+
+</div>
+
+</section>
+
+<section id="contact" class="section contact">
+<h2>聯絡方式</h2>
+
+<p>電話：0912-345-678</p>
+<p>LINE：yourlineid</p>
+<p>服務地區：全台灣旅遊包車</p>
+
+<a class="line-btn" href="https://line.me/ti/p/yourlineid">
+LINE預約
+</a>
+
+</section>
+
+</body>
+</html>
