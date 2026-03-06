@@ -177,12 +177,12 @@ padding:60px 5%;
 <section id="contact" class="section contact">
 <h2>聯絡方式</h2>
 
-<p>電話：0912-345-678</p>
-<p>LINE：yourlineid</p>
-<p>服務地區：全台灣旅遊包車</p>
+<p>電話：0910-771-727</p>
+<p>LINE ID：7099mm</p>
+<p>服務項目：全台灣旅遊包車｜機場接送｜武陵賞櫻</p>
 
 <a class="line-btn" href="https://line.me/ti/p/yourlineid">
-LINE預約
+LINE諮詢
 </a>
 
 </section>
